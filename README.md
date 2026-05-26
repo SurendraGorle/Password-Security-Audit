@@ -29,17 +29,27 @@ The main goal of this project was to learn how weak passwords can be identified 
 
 ## Project Structure
 
+## Project Structure
 
+```text
 Password-Security-Audit
 ├── hashes
 │   ├── multi_user_hashes.txt
 │   └── single_hashes.txt
-├── notes
-├── README.md
+│
 ├── results
 │   ├── multi_user_hash_results.txt
 │   └── single_hash_results.txt
-└── screenshots
+│
+├── screenshots
+│   ├── multi_user_audit.png
+│   ├── project_structure.png
+│   ├── sha512_hash_generation.png
+│   └── single_hash_cracked.png
+│
+└── README.md
+```
+
 
 ## Project Workflow
 
@@ -188,4 +198,38 @@ This project helped in understanding practical password auditing concepts using 
 ### Multi User Password Audit
 
 ![Multi User Audit](screenshots/multi_user_audit.png)
+
+
+## Git Workflow Used
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <repository-url>
+git push -u origin main
+```
+
+## Repository Purpose
+
+This repository was created for:
+
+- Practical cybersecurity learning
+- Password auditing practice
+- Understanding password hashing concepts
+- Hands-on Kali Linux experience
+- GitHub portfolio demonstration
+- Interview preparation
+
+
+## Author
+
+Surendra Gorle
+
+Cybersecurity Enthusiast | Cryptography Learner | Python Security Projects
+
+GitHub:
+https://github.com/SurendraGorle
+
 
